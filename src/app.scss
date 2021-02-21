@@ -1,0 +1,39 @@
+// colori
+$coral: #F08080;
+$celeste : #ADD8E6;
+$ocra: #FFA500;
+$height_H_F: 70px;
+
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  }
+
+body{
+  text-align: center;
+}
+header,footer{
+  background: $coral;
+  height: $height_H_F;
+  line-height: $height_H_F;
+}
+main{
+  height: calc(100vh - #{$height_H_F *2});
+  display: flex;
+  .sx,.dx {
+    line-height: 500px;
+    width: 25%;
+    color: $coral;
+    background: $celeste;
+  }
+  .cc {
+    width: 50%;
+    line-height: 600px;
+    background: $ocra;
+    &:hover{
+      color: green;
+      background: red;
+    }
+  }
+}

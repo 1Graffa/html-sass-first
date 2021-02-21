@@ -1,1 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
 
+body {
+  text-align: center;
+}
+
+header, footer {
+  background: #F08080;
+  height: 70px;
+  line-height: 70px;
+}
+
+main {
+  height: calc(100vh - 140px);
+  display: flex;
+}
+main .sx, main .dx {
+  line-height: 500px;
+  width: 25%;
+  color: #F08080;
+  background: #ADD8E6;
+}
+main .cc {
+  width: 50%;
+  line-height: 600px;
+  background: #FFA500;
+}
+main .cc:hover {
+  color: green;
+  background: red;
+}
