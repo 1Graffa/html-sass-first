@@ -19,14 +19,14 @@ main {
   display: flex;
 }
 main .sx, main .dx {
-  line-height: 500px;
+  line-height: calc(100vh - 140px);
   width: 25%;
   color: #F08080;
   background: #ADD8E6;
 }
 main .cc {
   width: 50%;
-  line-height: 600px;
+  line-height: calc(100vh - 140px);
   background: #FFA500;
 }
 main .cc:hover {
